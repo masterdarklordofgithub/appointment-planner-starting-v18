@@ -32,10 +32,10 @@ export const ContactForm = ({
         <label htmlFor="name" >Name </label>
         <input type="text" name="name" id="name" value={name} onChange={(e) => setName(e.target.value)} />
 
-        <label htmlFor="phone">Phone </label>
+        <label htmlFor="phone" >Phone </label>
         <input type="tel" name="phone" id="phone" value={phone} onChange={handlePhoneChange} />
 
-        <label htmlFor="email">Email</label>
+        <label htmlFor="email" >Email</label>
         <input type="email" name="email" id="email" value={email} onChange={(e) => setEmail(e.target.value)} />
 
         <input type="submit" value="Add Contact" />
